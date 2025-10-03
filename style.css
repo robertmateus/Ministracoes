@@ -33,13 +33,13 @@ header > h1 {
     font-family: var(--fonte-destaque);
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
-    font-size: 2.3em;
 }
 
 header > p {
     padding-top: 20px;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
+    font-size: 1.3em;
 }
 
 main {
@@ -69,5 +69,33 @@ h4 {
     font-size: 1.4em;
 }
 
+@media screen  and (min-width: 500px) and (max-width: 768px) {
+   header > h1  {
+       font-size: 20pt;
+   }
 
+   header > p {
+    font-size: 0.8em;
+   }
 
+   main {
+     width: 100vw;
+   }
+
+   h2 {
+    font-size: 1.4em;
+   }
+   h3 {
+    font-size: 1.2em;
+   }
+
+   h4 {
+    font-size: 1.1em;
+   }
+   p {
+    font-size: 14pt;
+   }
+   ul, li {
+    font-size: 14pt;
+   }
+}
